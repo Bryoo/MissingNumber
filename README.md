@@ -55,7 +55,9 @@ The Algorithm uses a hashtable so as to boost it's performance.
 
 Each element from the first array is stored in a hashtable plus its frequency
 
-Then, it loops through all the elements in the second array and hashes each key to the frequency recorded in hashtable, a non existent record would have a frequecy of 0 hence is the missing element.
+Then, it loops through all the elements in the second array and hashes each key to the frequency recorded in hashtable,
+
+a non existent record would have a frequency of 0 hence is the missing element.
 
 Complexity O(n)
 
